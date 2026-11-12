@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2010" height="1410" viewBox="0 0 2010 1410">
+<rect width="100%" height="100%" fill="white"/>
+<text x="35" y="51" font-family="Arial,DejaVu Sans,sans-serif" font-size="32" fill="#182c47">OLAP | Звезда проведённых бухгалтерских записей</text>
+<text x="35" y="89" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" fill="#182c47">Одна запись fact = одна source Posting. FK обязательны; sk=0 — unknown dimension без потери суммы.</text>
+<polyline points="750,520 620,520 620,255 480,255" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="480,255 489.9049181258794,250.21537912477646 489.9049181258794,259.78462087522354" fill="#60728b"/>
+<rect x="486" y="297" width="176.0" height="27" fill="white"/>
+<text x="490" y="315" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">1 dimension : N facts</text>
+<polyline points="750,620 480,620" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="480,620 489.9049181258794,615.2153791247765 489.9049181258794,624.7846208752235" fill="#60728b"/>
+<rect x="566" y="577" width="46.0" height="27" fill="white"/>
+<text x="570" y="595" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">1 : N</text>
+<polyline points="750,740 620,740 620,955 480,955" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="480,955 489.9049181258794,950.2153791247765 489.9049181258794,959.7846208752235" fill="#60728b"/>
+<rect x="536" y="862" width="46.0" height="27" fill="white"/>
+<text x="540" y="880" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">1 : N</text>
+<polyline points="1230,520 1380,520 1380,255 1510,255" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1510,255 1500.0950818741205,259.78462087522354 1500.0950818741205,250.21537912477646" fill="#60728b"/>
+<rect x="1391" y="297" width="46.0" height="27" fill="white"/>
+<text x="1395" y="315" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">1 : N</text>
+<polyline points="1230,620 1510,620" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1510,620 1500.0950818741205,624.7846208752235 1500.0950818741205,615.2153791247765" fill="#60728b"/>
+<rect x="1326" y="577" width="46.0" height="27" fill="white"/>
+<text x="1330" y="595" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">1 : N</text>
+<polyline points="1230,740 1380,740 1380,955 1510,955" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1510,955 1500.0950818741205,959.7846208752235 1500.0950818741205,950.2153791247765" fill="#60728b"/>
+<rect x="1396" y="862" width="46.0" height="27" fill="white"/>
+<text x="1400" y="880" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">1 : N</text>
+<polyline points="990,830 990,1120" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="990,1120 985.2153791247765,1110.0950818741205 994.7846208752235,1110.0950818741205" fill="#60728b"/>
+<rect x="1006" y="972" width="46.0" height="27" fill="white"/>
+<text x="1010" y="990" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">1 : N</text>
+<rect x="750" y="480" width="480" height="350" rx="8" fill="#fff1d4" stroke="#60728b" stroke-width="2"/>
+<text x="762" y="510" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">fact_posting</text>
+<text x="762" y="533" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK posting_sk</text>
+<text x="762" y="559" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">UNIQUE source_system+posting_id</text>
+<text x="762" y="585" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">FK customer/account/product/branch</text>
+<text x="762" y="611" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">FK bank/currency/booking_date</text>
+<text x="762" y="637" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">ledger_transaction_id / payment_ref?</text>
+<text x="762" y="663" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">dc / amount / signed_amount</text>
+<text x="762" y="689" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">source_position / publish_version</text>
+<rect x="50" y="180" width="430" height="150" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="62" y="210" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">dim_customer (SCD2)</text>
+<text x="62" y="233" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK customer_sk</text>
+<text x="62" y="259" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">global ID / segment / intervals</text>
+<rect x="50" y="530" width="430" height="150" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="62" y="560" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">dim_account (SCD2)</text>
+<text x="62" y="583" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK account_sk</text>
+<text x="62" y="609" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">source account / type / status</text>
+<rect x="50" y="880" width="430" height="150" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="62" y="910" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">dim_product (SCD2)</text>
+<text x="62" y="933" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK product_sk</text>
+<text x="62" y="959" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">product / tariff version / interval</text>
+<rect x="1510" y="180" width="430" height="150" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="1522" y="210" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">dim_branch (SCD2)</text>
+<text x="1522" y="233" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK branch_sk</text>
+<text x="1522" y="259" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">bank / region / interval</text>
+<rect x="1510" y="530" width="430" height="150" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="1522" y="560" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">dim_bank</text>
+<text x="1522" y="583" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK bank_sk</text>
+<text x="1522" y="609" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">origin bank / legal entity</text>
+<rect x="1510" y="880" width="430" height="150" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="1522" y="910" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">dim_currency</text>
+<text x="1522" y="933" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK currency_sk</text>
+<text x="1522" y="959" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">currency_code / minor_unit</text>
+<rect x="750" y="1120" width="480" height="150" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="762" y="1150" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">dim_date</text>
+<text x="762" y="1173" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK date_sk</text>
+<text x="762" y="1199" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">bank calendar / reporting period</text>
+<text x="35" y="1355" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">SCD2 join по [valid_from, valid_to) на business time. У каждого факта ровно одна версия каждой dimension.</text>
+<text x="35" y="1380" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Меры суммируются только в одной валюте. Остаток — отдельный daily snapshot, не сумма остатков за дни.</text>
+</svg>

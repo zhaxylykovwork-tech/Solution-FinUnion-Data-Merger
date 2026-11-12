@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1940" height="1220" viewBox="0 0 1940 1220">
+<rect width="100%" height="100%" fill="white"/>
+<text x="35" y="51" font-family="Arial,DejaVu Sans,sans-serif" font-size="32" fill="#182c47">DFD L0 | Контекст платформы данных, 3 месяца</text>
+<text x="35" y="89" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" fill="#182c47">Один процесс P0. Внешние потоки сбалансированы с детализацией; operational мастера не перемещены в P0.</text>
+<polyline points="420,290 550,290 550,370 730,370" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="730,370 720.0950818741205,374.78462087522354 720.0950818741205,365.21537912477646" fill="#60728b"/>
+<rect x="461" y="192" width="162.0" height="51" fill="white"/>
+<text x="465" y="210" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F01–F08</text>
+<text x="465" y="234" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Исходные данные</text>
+<polyline points="730,480 600,480 600,675 420,675" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="420,675 429.9049181258794,670.2153791247765 429.9049181258794,679.7846208752235" fill="#60728b"/>
+<rect x="456" y="597" width="120.0" height="51" fill="white"/>
+<text x="460" y="615" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F11F/F11R</text>
+<text x="460" y="639" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Golden profile</text>
+<polyline points="420,980 640,980 640,540 730,540" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="730,540 720.0950818741205,544.7846208752235 720.0950818741205,535.2153791247765" fill="#60728b"/>
+<rect x="451" y="927" width="118.0" height="27" fill="white"/>
+<text x="455" y="945" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F18 решения</text>
+<polyline points="850,580 850,1060 420,1060" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="420,1060 429.9049181258794,1055.2153791247765 429.9049181258794,1064.7846208752235" fill="#60728b"/>
+<rect x="666" y="1077" width="113.0" height="27" fill="white"/>
+<text x="670" y="1095" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F19 очередь</text>
+<polyline points="1510,265 1300,265 1300,380 1180,380" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1180,380 1189.9049181258795,375.21537912477646 1189.9049181258795,384.78462087522354" fill="#60728b"/>
+<rect x="1256" y="187" width="152.0" height="27" fill="white"/>
+<text x="1260" y="205" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F20 Read request</text>
+<polyline points="1180,450 1400,450 1400,350 1510,350" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1510,350 1500.0950818741205,354.78462087522354 1500.0950818741205,345.21537912477646" fill="#60728b"/>
+<rect x="1236" y="472" width="89.0" height="27" fill="white"/>
+<text x="1240" y="490" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F15 отчёт</text>
+<polyline points="1180,530 1320,530 1320,785 1510,785" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1510,785 1500.0950818741205,789.7846208752235 1500.0950818741205,780.2153791247765" fill="#60728b"/>
+<rect x="1336" y="647" width="175.0" height="27" fill="white"/>
+<text x="1340" y="665" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F16 закрытый пакет</text>
+<rect x="40" y="180" width="380" height="220" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="52" y="210" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">FU/RB operational systems</text>
+<text x="52" y="233" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">CRM, Core, Cards, Loans</text>
+<text x="52" y="259" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">8 отдельных источников</text>
+<text x="52" y="285" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Создают свои банковские факты</text>
+<rect x="40" y="590" width="380" height="170" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="52" y="620" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">FU CRM / RB CRM</text>
+<text x="52" y="643" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Получают golden projection</text>
+<text x="52" y="669" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">ID / crosswalk / reference</text>
+<rect x="730" y="330" width="450" height="250" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="742" y="360" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">P0 Единая платформа данных</text>
+<text x="742" y="383" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Принять / Validate / Enrich</text>
+<text x="742" y="409" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">MDM + Integration + DWH</text>
+<text x="742" y="435" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Aggregate / Read / publish</text>
+<text x="742" y="461" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">BI + DataHub</text>
+<rect x="40" y="940" width="380" height="150" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="52" y="970" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Data Steward</text>
+<text x="52" y="993" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Решения / reference approval</text>
+<rect x="1510" y="230" width="350" height="170" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="1522" y="260" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Сотрудник банка</text>
+<text x="1522" y="283" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Запрос / управленческий отчёт</text>
+<rect x="1510" y="700" width="350" height="170" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="1522" y="730" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Регуляторный потребитель</text>
+<text x="1522" y="753" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Утверждённый пакет / ack</text>
+<text x="1522" y="779" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Отправка только после sign-off</text>
+<text x="35" y="1165" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Серые — внешние участники относительно P0. Синий — единый процесс платформы.</text>
+<text x="35" y="1190" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F18/F19 и F20/F15 — вход и результат. Технический ack F16 фиксирует доставка, не финансовую приёмку.</text>
+</svg>

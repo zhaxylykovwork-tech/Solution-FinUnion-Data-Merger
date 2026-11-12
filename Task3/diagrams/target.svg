@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2440" height="1460" viewBox="0 0 2440 1460">
+<rect width="100%" height="100%" fill="white"/>
+<text x="35" y="51" font-family="Arial,DejaVu Sans,sans-serif" font-size="32" fill="#182c47">To-Be | Целевая архитектура, 12 месяцев</text>
+<text x="35" y="89" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" fill="#182c47">Operational commands остаются в operational systems/ESB; показанные стрелки — данные и управление аналитикой.</text>
+<polyline points="390,640 470,640 470,330 600,330" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="600,330 590.0950818741205,334.78462087522354 590.0950818741205,325.21537912477646" fill="#60728b"/>
+<rect x="471" y="517" width="139.0" height="27" fill="white"/>
+<text x="475" y="535" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Gold / projection</text>
+<polyline points="390,260 600,260" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="600,260 590.0950818741205,264.78462087522354 590.0950818741205,255.21537912477646" fill="#60728b"/>
+<rect x="421" y="217" width="112.0" height="27" fill="white"/>
+<text x="425" y="235" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">CDC / export</text>
+<polyline points="990,260 1200,260" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1200,260 1190.0950818741205,264.78462087522354 1190.0950818741205,255.21537912477646" fill="#60728b"/>
+<rect x="1026" y="217" width="108.0" height="27" fill="white"/>
+<text x="1030" y="235" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">events / files</text>
+<polyline points="1390,380 1390,600" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1390,600 1385.2153791247765,590.0950818741205 1394.7846208752235,590.0950818741205" fill="#60728b"/>
+<rect x="1406" y="462" width="67.984375" height="27" fill="white"/>
+<text x="1410" y="480" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">P1 ELT</text>
+<polyline points="1580,260 1850,260" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1850,260 1840.0950818741205,264.78462087522354 1840.0950818741205,255.21537912477646" fill="#60728b"/>
+<rect x="1646" y="217" width="57.0" height="27" fill="white"/>
+<text x="1650" y="235" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">P3/P4</text>
+<polyline points="2065,400 2065,600" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="2065,600 2060.2153791247765,590.0950818741205 2069.7846208752235,590.0950818741205" fill="#60728b"/>
+<rect x="2076" y="467" width="155.0" height="27" fill="white"/>
+<text x="2080" y="485" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">curated snapshots</text>
+<polyline points="1850,690 1580,690" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1580,690 1589.9049181258795,685.2153791247765 1589.9049181258795,694.7846208752235" fill="#60728b"/>
+<rect x="1601" y="722" width="184.0" height="51" fill="white"/>
+<text x="1605" y="740" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Approved aggregates</text>
+<text x="1605" y="764" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Pinned snapshot / DQ</text>
+<polyline points="390,710 500,710 500,870 1390,870 1390,820" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1390,820 1394.7846208752235,829.9049181258795 1385.2153791247765,829.9049181258795" fill="#60728b"/>
+<rect x="716" y="877" width="229.0" height="27" fill="white"/>
+<text x="720" y="895" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Gold / reference projections</text>
+<polyline points="700,380 700,450 200,450 200,600" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="200,600 195.21537912477646,590.0950818741205 204.78462087522354,590.0950818741205" fill="#60728b"/>
+<rect x="256" y="467" width="88.0" height="27" fill="white"/>
+<text x="260" y="485" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Proposals</text>
+<polyline points="1390,820 1390,1080" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1390,1080 1385.2153791247765,1070.0950818741205 1394.7846208752235,1070.0950818741205" fill="#60728b"/>
+<rect x="1406" y="967" width="160.0" height="27" fill="white"/>
+<text x="1410" y="985" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">P5 certified publish</text>
+<polyline points="990,660 1200,660" fill="none" stroke="#60728b" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1200,660 1190.0950818741205,664.7846208752235 1190.0950818741205,655.2153791247765" fill="#60728b"/>
+<rect x="1026" y="617" width="89.0" height="27" fill="white"/>
+<text x="1030" y="635" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">DAG / DQ</text>
+<polyline points="900,600 900,120 2065,120 2065,180" fill="none" stroke="#60728b" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="2065,180 2060.2153791247765,170.09508187412055 2069.7846208752235,170.09508187412055" fill="#60728b"/>
+<rect x="1076" y="97" width="163.0" height="27" fill="white"/>
+<text x="1080" y="115" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Batch orchestration</text>
+<polyline points="1200,790 1080,790 1080,1150 990,1150" fill="none" stroke="#60728b" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="990,1150 999.9049181258795,1145.2153791247765 999.9049181258795,1154.7846208752235" fill="#60728b"/>
+<rect x="1066" y="997" width="66.0" height="27" fill="white"/>
+<text x="1070" y="1015" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">lineage</text>
+<polyline points="2250,400 2350,400 2350,1320 800,1320 800,1250" fill="none" stroke="#60728b" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="800,1250 804.7846208752235,1259.9049181258795 795.2153791247765,1259.9049181258795" fill="#60728b"/>
+<rect x="1686" y="1322" width="229.0" height="27" fill="white"/>
+<text x="1690" y="1340" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Schemas / lineage / run IDs</text>
+<polyline points="210,800 210,1150 600,1150" fill="none" stroke="#60728b" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="600,1150 590.0950818741205,1154.7846208752235 590.0950818741205,1145.2153791247765" fill="#60728b"/>
+<rect x="256" y="1097" width="134.0" height="27" fill="white"/>
+<text x="260" y="1115" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Owner / lineage</text>
+<rect x="30" y="180" width="360" height="200" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="42" y="210" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Operational systems</text>
+<text x="42" y="233" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">FU CRM / Core / Cards / Loans</text>
+<text x="42" y="259" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Document registry</text>
+<text x="42" y="285" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">RB — только до gates</text>
+<rect x="30" y="600" width="360" height="200" rx="8" fill="#fff1d4" stroke="#60728b" stroke-width="2"/>
+<text x="42" y="630" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">MDM Hub</text>
+<text x="42" y="653" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Customer / Reference</text>
+<text x="42" y="679" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Match + stewardship</text>
+<text x="42" y="705" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Gold history / outbox</text>
+<rect x="600" y="180" width="390" height="200" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="612" y="210" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Integration Layer</text>
+<text x="612" y="233" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">ESB/API adapters для команд</text>
+<text x="612" y="259" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">CDC/export + Kafka events</text>
+<text x="612" y="285" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Versioned schema contracts</text>
+<rect x="1200" y="180" width="380" height="200" rx="8" fill="#fff1d4" stroke="#60728b" stroke-width="2"/>
+<text x="1212" y="210" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Private raw landing</text>
+<text x="1212" y="233" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Source snapshots / deltas</text>
+<text x="1212" y="259" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Manifest / hash / offsets</text>
+<text x="1212" y="285" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Replay / protected quarantine</text>
+<rect x="1200" y="600" width="380" height="220" rx="8" fill="#fff1d4" stroke="#60728b" stroke-width="2"/>
+<text x="1212" y="630" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">PostgreSQL DWH</text>
+<text x="1212" y="653" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Staging → core → marts</text>
+<text x="1212" y="679" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Reconcile / atomic publish</text>
+<text x="1212" y="705" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Immutable report versions</text>
+<text x="1212" y="731" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Согласованные native totals</text>
+<rect x="1850" y="180" width="430" height="220" rx="8" fill="#fff1d4" stroke="#60728b" stroke-width="2"/>
+<text x="1862" y="210" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Iceberg Lakehouse</text>
+<text x="1862" y="233" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Private object store + Parquet</text>
+<text x="1862" y="259" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">REST transactional catalog</text>
+<text x="1862" y="285" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Spark batch / microbatch</text>
+<text x="1862" y="311" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Snapshots + maintenance</text>
+<rect x="1850" y="600" width="430" height="170" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="1862" y="630" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Trino SQL / risk analysis</text>
+<text x="1862" y="653" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Authorized curated tables</text>
+<text x="1862" y="679" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Исследования / исторические KPI</text>
+<rect x="1200" y="1080" width="380" height="170" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="1212" y="1110" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">BI / регуляторные пакеты</text>
+<text x="1212" y="1133" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Certified metrics / masked views</text>
+<text x="1212" y="1159" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Finance sign-off и as_of</text>
+<rect x="600" y="600" width="390" height="170" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="612" y="630" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Airflow orchestration</text>
+<text x="612" y="653" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Batch DAG / backfill / DQ</text>
+<text x="612" y="679" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Git SQL + run manifests</text>
+<rect x="600" y="1080" width="390" height="170" rx="8" fill="#fff1d4" stroke="#60728b" stroke-width="2"/>
+<text x="612" y="1110" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">DataHub governance</text>
+<text x="612" y="1133" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Owner / schema / lineage</text>
+<text x="612" y="1159" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Metadata, без raw payload</text>
+<text x="35" y="1405" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Сплошные — данные. Пунктир — orchestration/metadata. Airflow также оркестрирует exports; DataHub каталогизирует все critical assets.</text>
+<text x="35" y="1430" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">DataHub ≠ Iceberg transactional catalog. Cards events не дублируют ledger Posting при публикации DWH.</text>
+</svg>

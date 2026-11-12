@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram name="ERD 2/2 | Идентичность и продуктовые/документные связи" id="logical-support">
+    <mxGraphModel dx="2600" dy="1710" grid="1" gridSize="10" page="1" pageWidth="2600" pageHeight="1710">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="ERD 2/2 | Идентичность и продуктовые/документные связи&lt;br&gt;Повторяющиеся родительские узлы обозначают те же сущности листа 1. Стрелка FK → PK." style="text;html=1;fontSize=24;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="35" y="20" width="2530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="0..N IDs / Customer" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.25;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="identifier" target="identifier_customer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="300" />
+              <mxPoint x="770" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" value="0..1 segment / Customer" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.25;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="customer2" target="customer2_segment">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="300" />
+              <mxPoint x="2070" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="0..N cards / Account" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.25;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="card" target="card_account">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="800" />
+              <mxPoint x="770" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="0..N cards / Agreement" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="card" target="card_agreement">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="850" />
+              <mxPoint x="770" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="0..N cards / Holder" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.75;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="card" target="card_customer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="900" />
+              <mxPoint x="770" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="0..1 loan / Agreement" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.25;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="loan" target="loan_agreement">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="800" />
+              <mxPoint x="2070" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="0..N loans / Account" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="loan" target="loan_account">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="850" />
+              <mxPoint x="2070" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="0..N consents / Customer" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.25;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="consent" target="consent_customer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="1300" />
+              <mxPoint x="770" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="0..N docs / Customer" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.25;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="document" target="document_customer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="1300" />
+              <mxPoint x="2070" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="0..N docs / Agreement" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="document" target="document_agreement">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="1350" />
+              <mxPoint x="2070" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="identifier" value="E02 Identifier&lt;br&gt;PK source+local_id+from&lt;br&gt;FK customer_id&lt;br&gt;match / history" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="identifier_customer" value="E01 Customer (повтор)&lt;br&gt;PK customer_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="840" y="170" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="customer2" value="E01 Customer (повтор)&lt;br&gt;PK customer_id&lt;br&gt;FK segment_id?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="250" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="customer2_segment" value="E13 Segment (повтор)&lt;br&gt;PK segment_id; definition/version" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="170" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="card" value="E06 Card&lt;br&gt;PK card_id&lt;br&gt;FK account / agreement / holder&lt;br&gt;pan_token / status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="750" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="card_account" value="E05 Account (повтор)&lt;br&gt;PK account_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="840" y="670" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="card_agreement" value="E03 Agreement (повтор)&lt;br&gt;PK agreement_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="840" y="810" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="card_customer" value="E01 Customer (повтор)&lt;br&gt;PK customer_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="840" y="950" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="loan" value="E07 Loan&lt;br&gt;PK loan_id&lt;br&gt;FK agreement UNIQUE / account&lt;br&gt;schedule / principal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="750" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="loan_agreement" value="E03 Agreement (повтор)&lt;br&gt;PK agreement_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="670" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="loan_account" value="E05 Account (повтор)&lt;br&gt;PK account_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="810" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="consent" value="E15 Consent&lt;br&gt;PK consent_id&lt;br&gt;FK customer_id&lt;br&gt;purpose / scope / evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1250" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="consent_customer" value="E01 Customer (повтор)&lt;br&gt;PK customer_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1170" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="document" value="E16 Document&lt;br&gt;PK document_id&lt;br&gt;FK customer? / agreement?&lt;br&gt;object_key / hash / retention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1250" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="document_customer" value="E01 Customer (повтор)&lt;br&gt;PK customer_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="1170" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="document_agreement" value="E03 Agreement (повтор)&lt;br&gt;PK agreement_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e4f4ed;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="1310" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="Обязательность FK указана в дочерней сущности. Document требует хотя бы одну ссылку: customer или agreement.&lt;br&gt;Identifier — history crosswalk; один current source key не может указывать на двух Customer." style="text;html=1;align=left;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1640" width="2530" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

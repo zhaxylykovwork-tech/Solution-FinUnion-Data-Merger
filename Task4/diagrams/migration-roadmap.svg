@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2130" height="1190" viewBox="0 0 2130 1190">
+<rect width="100%" height="100%" fill="white"/>
+<text x="35" y="51" font-family="Arial,DejaVu Sans,sans-serif" font-size="32" fill="#182c47">Миграция | Волны с бизнес-результатом и exit gates</text>
+<text x="35" y="89" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" fill="#182c47">Относительный план. Связи — зависимости, не автоматический переход по дате. Lakehouse не блокирует M4.</text>
+<polyline points="470,295 570,295" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="570,295 560.0950818741205,299.78462087522354 560.0950818741205,290.21537912477646" fill="#60728b"/>
+<rect x="488" y="252" width="43.0" height="27" fill="white"/>
+<text x="492" y="270" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">gate</text>
+<polyline points="1000,295 1100,295" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1100,295 1090.0950818741205,299.78462087522354 1090.0950818741205,290.21537912477646" fill="#60728b"/>
+<rect x="1018" y="252" width="43.0" height="27" fill="white"/>
+<text x="1022" y="270" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">gate</text>
+<polyline points="1530,295 1630,295" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1630,295 1620.0950818741205,299.78462087522354 1620.0950818741205,290.21537912477646" fill="#60728b"/>
+<rect x="1548" y="252" width="43.0" height="27" fill="white"/>
+<text x="1552" y="270" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">gate</text>
+<polyline points="1845,390 1845,480 255,480 255,640" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="255,640 250.21537912477646,630.0950818741205 259.78462087522354,630.0950818741205" fill="#60728b"/>
+<rect x="596" y="487" width="217.0" height="27" fill="white"/>
+<text x="600" y="505" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">M4 → M5, обслуживание</text>
+<polyline points="470,735 570,735" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="570,735 560.0950818741205,739.7846208752235 560.0950818741205,730.2153791247765" fill="#60728b"/>
+<rect x="486" y="692" width="43.0" height="27" fill="white"/>
+<text x="490" y="710" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">gate</text>
+<polyline points="1950,390 1950,550 1315,550 1315,640" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1315,640 1310.2153791247765,630.0950818741205 1319.7846208752235,630.0950818741205" fill="#60728b"/>
+<rect x="1346" y="557" width="238.0" height="27" fill="white"/>
+<text x="1350" y="575" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">M4 → M7, параллельно M6</text>
+<polyline points="785,830 785,1000 1845,1000 1845,830" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1845,830 1849.7846208752235,839.9049181258795 1840.2153791247765,839.9049181258795" fill="#60728b"/>
+<rect x="976" y="1012" width="248.0" height="27" fill="white"/>
+<text x="980" y="1030" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">M6 и M7 обязательны до M8</text>
+<polyline points="1530,735 1630,735" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1630,735 1620.0950818741205,739.7846208752235 1620.0950818741205,730.2153791247765" fill="#60728b"/>
+<rect x="1546" y="692" width="43.0" height="27" fill="white"/>
+<text x="1550" y="710" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">gate</text>
+<rect x="40" y="200" width="430" height="190" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="52" y="230" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">M1 | недели 1–2</text>
+<text x="52" y="253" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Discovery / owners / baseline</text>
+<text x="52" y="279" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Gate: scope + источники</text>
+<rect x="570" y="200" width="430" height="190" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="582" y="230" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">M2 | недели 3–6</text>
+<text x="582" y="253" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Identity / reference pilot</text>
+<text x="582" y="279" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Gate: safe match + unmerge</text>
+<rect x="1100" y="200" width="430" height="190" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="1112" y="230" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">M3 | недели 5–10</text>
+<text x="1112" y="253" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Общий PG DWH / catalog</text>
+<text x="1112" y="279" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Gate: full reconciliation</text>
+<rect x="1630" y="200" width="430" height="190" rx="8" fill="#fff1d4" stroke="#60728b" stroke-width="2"/>
+<text x="1642" y="230" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">M4 | недели 11–12</text>
+<text x="1642" y="253" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Cutover отчётности</text>
+<text x="1642" y="279" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">3 месяца: общий профиль/BI</text>
+<rect x="40" y="640" width="430" height="190" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="52" y="670" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">M5 | месяцы 4–6</text>
+<text x="52" y="693" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">CRM / cases / consents</text>
+<text x="52" y="719" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Gate: один writer в когорте</text>
+<rect x="570" y="640" width="430" height="190" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="582" y="670" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">M6 | месяцы 6–9</text>
+<text x="582" y="693" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Core / Cards / Loans волны</text>
+<text x="582" y="719" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Gate: finance/legal/certification</text>
+<rect x="1100" y="640" width="430" height="190" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="1112" y="670" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">M7 | месяцы 7–10</text>
+<text x="1112" y="693" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Lakehouse / data products</text>
+<text x="1112" y="719" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Gate: replay / ACL / cost</text>
+<rect x="1630" y="640" width="430" height="190" rx="8" fill="#fff1d4" stroke="#60728b" stroke-width="2"/>
+<text x="1642" y="670" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">M8 | месяцы 10–12</text>
+<text x="1642" y="693" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Stabilize / archive / shutdown</text>
+<text x="1642" y="719" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">12 месяцев: exit gates</text>
+<text x="35" y="1135" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Каждая волна: consistent T0 → history+delta → shadow → DQ/finance → Go/No-Go → fencing/route → observation.</text>
+<text x="35" y="1160" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Непереносимый портфель остаётся у одного RB-мастера как открытое исключение; полное отключение не объявляется.</text>
+</svg>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram name="To-Be | Целевая архитектура, 12 месяцев" id="target">
+    <mxGraphModel dx="2440" dy="1460" grid="1" gridSize="10" page="1" pageWidth="2440" pageHeight="1460">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="To-Be | Целевая архитектура, 12 месяцев&lt;br&gt;Operational commands остаются в operational systems/ESB; показанные стрелки — данные и управление аналитикой." style="text;html=1;fontSize=24;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="35" y="20" width="2370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="Gold / projection" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.2;entryX=0.0;entryY=0.75;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="hub" target="int">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="640" />
+              <mxPoint x="470" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" value="CDC / export" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.4;entryX=0.0;entryY=0.4;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="ops" target="int">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="events / files" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.4;entryX=0.0;entryY=0.4;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="int" target="land">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="P1 ELT" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="land" target="dwh">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="P3/P4" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.4;entryX=0.0;entryY=0.36363636363636365;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="land" target="lake">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="curated snapshots" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="lake" target="sql">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="Approved aggregates&lt;br&gt;Pinned snapshot / DQ" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.0;exitY=0.5294117647058824;entryX=1.0;entryY=0.4090909090909091;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="sql" target="dwh">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="Gold / reference projections" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.55;entryX=0.5;entryY=1.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="hub" target="dwh">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="710" />
+              <mxPoint x="500" y="870" />
+              <mxPoint x="1390" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="Proposals" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.2564102564102564;exitY=1.0;entryX=0.4722222222222222;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="int" target="hub">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="450" />
+              <mxPoint x="200" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="P5 certified publish" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="dwh" target="bi">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="DAG / DQ" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.35294117647058826;entryX=0.0;entryY=0.2727272727272727;exitPerimeter=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="air" target="dwh">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="Batch orchestration" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.7692307692307693;exitY=0.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="air" target="lake">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="120" />
+              <mxPoint x="2065" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" value="lineage" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.0;exitY=0.8636363636363636;entryX=1.0;entryY=0.4117647058823529;exitPerimeter=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="dwh" target="cat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="790" />
+              <mxPoint x="1080" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" value="Schemas / lineage / run IDs" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.9302325581395349;exitY=1.0;entryX=0.5128205128205128;entryY=1.0;exitPerimeter=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="lake" target="cat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2350" y="400" />
+              <mxPoint x="2350" y="1320" />
+              <mxPoint x="800" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" value="Owner / lineage" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.5;exitY=1.0;entryX=0.0;entryY=0.4117647058823529;exitPerimeter=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="hub" target="cat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ops" value="Operational systems&lt;br&gt;FU CRM / Core / Cards / Loans&lt;br&gt;Document registry&lt;br&gt;RB — только до gates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="30" y="180" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hub" value="MDM Hub&lt;br&gt;Customer / Reference&lt;br&gt;Match + stewardship&lt;br&gt;Gold history / outbox" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff1d4;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="30" y="600" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="int" value="Integration Layer&lt;br&gt;ESB/API adapters для команд&lt;br&gt;CDC/export + Kafka events&lt;br&gt;Versioned schema contracts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7f0ff;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="390" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="land" value="Private raw landing&lt;br&gt;Source snapshots / deltas&lt;br&gt;Manifest / hash / offsets&lt;br&gt;Replay / protected quarantine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff1d4;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="180" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dwh" value="PostgreSQL DWH&lt;br&gt;Staging → core → marts&lt;br&gt;Reconcile / atomic publish&lt;br&gt;Immutable report versions&lt;br&gt;Согласованные native totals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff1d4;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="600" width="380" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="lake" value="Iceberg Lakehouse&lt;br&gt;Private object store + Parquet&lt;br&gt;REST transactional catalog&lt;br&gt;Spark batch / microbatch&lt;br&gt;Snapshots + maintenance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff1d4;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="180" width="430" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="sql" value="Trino SQL / risk analysis&lt;br&gt;Authorized curated tables&lt;br&gt;Исследования / исторические KPI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7f0ff;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="600" width="430" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bi" value="BI / регуляторные пакеты&lt;br&gt;Certified metrics / masked views&lt;br&gt;Finance sign-off и as_of" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1080" width="380" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="air" value="Airflow orchestration&lt;br&gt;Batch DAG / backfill / DQ&lt;br&gt;Git SQL + run manifests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7f0ff;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="600" y="600" width="390" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cat" value="DataHub governance&lt;br&gt;Owner / schema / lineage&lt;br&gt;Metadata, без raw payload" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff1d4;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1080" width="390" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="Сплошные — данные. Пунктир — orchestration/metadata. Airflow также оркестрирует exports; DataHub каталогизирует все critical assets.&lt;br&gt;DataHub ≠ Iceberg transactional catalog. Cards events не дублируют ledger Posting при публикации DWH." style="text;html=1;align=left;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1390" width="2370" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
