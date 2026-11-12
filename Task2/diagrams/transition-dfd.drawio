@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram name="DFD L1 | Промежуточное состояние, 3 месяца" id="transition-dfd">
+    <mxGraphModel dx="2600" dy="1390" grid="1" gridSize="10" page="1" pageWidth="2600" pageHeight="1390">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="DFD L1 | Промежуточное состояние, 3 месяца&lt;br&gt;F01–F20: реестр data-flows.md. Слева — восемь source systems; P1–P4 и D1/D2 раскрывают платформу P0." style="text;html=1;fontSize=24;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="35" y="20" width="2530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="F01" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5833333333333334;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="fucrm" target="il">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="195" />
+              <mxPoint x="450" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" value="F02" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5833333333333334;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="rbcrm" target="il">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="335" />
+              <mxPoint x="450" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="F03" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5833333333333334;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="fucore" target="il">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="475" />
+              <mxPoint x="450" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="F04" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5833333333333334;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="rbcore" target="il">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="615" />
+              <mxPoint x="450" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="F05" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5833333333333334;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="fucards" target="il">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="755" />
+              <mxPoint x="450" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="F06" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5833333333333334;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="rbcards" target="il">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="895" />
+              <mxPoint x="450" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="F07" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5833333333333334;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="fuloans" target="il">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1035" />
+              <mxPoint x="450" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="F08" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5833333333333334;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="rbloans" target="il">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1175" />
+              <mxPoint x="450" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="F09 proposals" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.13333333333333333;entryX=0.0;entryY=0.3181818181818182;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="il" target="mdm">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="510" />
+              <mxPoint x="1010" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="F10 gold" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.0;exitY=0.7272727272727273;entryX=1.0;entryY=0.3;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="mdm" target="il">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="340" />
+              <mxPoint x="1060" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="F11F/F11R&lt;br&gt;Enrich/Update/Delete" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.29411764705882354;exitY=0.0;entryX=0.29411764705882354;entryY=1.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="il" target="crmp">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="F12 facts" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.7666666666666667;entryX=0.0;entryY=0.45454545454545453;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="il" target="dwh">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" value="F13 dimensions" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="mdm" target="dwh">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" value="F14 marts" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.29545454545454547;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="dwh" target="bi">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" value="F15 отчёт" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.6666666666666666;entryX=0.0;entryY=0.6666666666666666;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="bi" target="emp">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" value="F20 запрос" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.0;exitY=0.23333333333333334;entryX=1.0;entryY=0.23333333333333334;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="emp" target="bi">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" value="F16 package" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.7272727272727273;entryX=0.0;entryY=0.5666666666666667;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="dwh" target="reg">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="760" />
+              <mxPoint x="1560" y="975" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" value="F19 review" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=1.0;exitY=0.22727272727272727;entryX=0.0;entryY=0.29411764705882354;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="mdm" target="st">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18" value="F18 decisions" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.0;exitY=0.7647058823529411;entryX=1.0;entryY=0.5909090909090909;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="st" target="mdm">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" value="F17 IL schema" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.5;exitY=1.0;entryX=0.0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="il" target="cat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="1165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20" value="F17 MDM" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.9428571428571428;exitY=1.0;entryX=0.7428571428571429;entryY=0.0;exitPerimeter=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="mdm" target="cat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1520" y="400" />
+              <mxPoint x="1520" y="1060" />
+              <mxPoint x="1380" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e21" value="F17 DWH" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.5;exitY=1.0;entryX=0.5;entryY=0.0;exitPerimeter=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="dwh" target="cat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e22" value="F17 BI metadata" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#60728b;fontSize=16;exitX=0.5;exitY=1.0;entryX=1.0;entryY=0.6666666666666666;exitPerimeter=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="bi" target="cat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="740" />
+              <mxPoint x="2070" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fucrm" value="FU CRM&lt;br&gt;F01 source data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="35" y="150" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rbcrm" value="RB CRM&lt;br&gt;F02 source data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="35" y="290" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fucore" value="FU Core&lt;br&gt;F03 source data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="35" y="430" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rbcore" value="RB Core&lt;br&gt;F04 source data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="35" y="570" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fucards" value="FU Cards&lt;br&gt;F05 source data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="35" y="710" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rbcards" value="RB Cards&lt;br&gt;F06 source data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="35" y="850" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fuloans" value="FU Loans&lt;br&gt;F07 source data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="35" y="990" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rbloans" value="RB Loans&lt;br&gt;F08 source data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1130" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="il" value="P1 Integration Layer&lt;br&gt;Adapters / source contracts&lt;br&gt;Validate / normalize codes&lt;br&gt;Read / Create / Update&lt;br&gt;Delete tombstones&lt;br&gt;Staging + event log" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7f0ff;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="600" y="470" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="mdm" value="P2 MDM Customer Hub&lt;br&gt;Match / Enrich / Validate&lt;br&gt;Customer / crosswalk&lt;br&gt;Reference / consent projection&lt;br&gt;Gold history + outbox" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff1d4;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="180" width="350" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="dwh" value="D1/P3 PostgreSQL DWH&lt;br&gt;Staging / conformed core&lt;br&gt;Aggregate / reconcile&lt;br&gt;Atomic publish_version&lt;br&gt;Marts + report snapshots" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff1d4;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="600" width="350" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bi" value="P4 BI / metrics&lt;br&gt;Read / Aggregate&lt;br&gt;Certified views only" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7f0ff;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="590" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="emp" value="Сотрудник&lt;br&gt;Запрос и отчёт с as_of" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="590" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="reg" value="Регуляторный потребитель&lt;br&gt;Утверждённый export" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="890" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cat" value="D2 DataHub&lt;br&gt;Metadata / owner / lineage&lt;br&gt;Без raw ПДн" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff1d4;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1090" width="350" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="st" value="Steward&lt;br&gt;Queue / match decisions&lt;br&gt;Reference approval" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="180" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="crmp" value="FU CRM / RB CRM&lt;br&gt;Golden projection (F11F/R)&lt;br&gt;Те же внешние CRM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#60728b;fontSize=18;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="600" y="140" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="Жёлтые — хранилища с ответственным процессом. Синие — обработка. Серые — внешние участники. Пунктир — metadata.&lt;br&gt;CRM показаны второй раз как получатели F11; это те же системы. F01–F08 сходятся в ingestion, не смешивая source keys." style="text;html=1;align=left;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1320" width="2530" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

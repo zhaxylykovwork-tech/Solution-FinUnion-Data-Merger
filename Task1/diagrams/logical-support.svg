@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2600" height="1710" viewBox="0 0 2600 1710">
+<rect width="100%" height="100%" fill="white"/>
+<text x="35" y="51" font-family="Arial,DejaVu Sans,sans-serif" font-size="32" fill="#182c47">ERD 2/2 | Идентичность и продуктовые/документные связи</text>
+<text x="35" y="89" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" fill="#182c47">Повторяющиеся родительские узлы обозначают те же сущности листа 1. Стрелка FK → PK.</text>
+<polyline points="460,300 770,300 770,220 840,220" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="840,220 830.0950818741205,224.78462087522354 830.0950818741205,215.21537912477646" fill="#60728b"/>
+<rect x="486" y="177" width="166.0" height="27" fill="white"/>
+<text x="490" y="195" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">0..N IDs / Customer</text>
+<polyline points="1760,300 2070,300 2070,220 2140,220" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="2140,220 2130.0950818741208,224.78462087522354 2130.0950818741208,215.21537912477646" fill="#60728b"/>
+<rect x="1786" y="177" width="205.0" height="27" fill="white"/>
+<text x="1790" y="195" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">0..1 segment / Customer</text>
+<polyline points="460,800 770,800 770,720 840,720" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="840,720 830.0950818741205,724.7846208752235 830.0950818741205,715.2153791247765" fill="#60728b"/>
+<rect x="486" y="677" width="169.984375" height="27" fill="white"/>
+<text x="490" y="695" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">0..N cards / Account</text>
+<polyline points="460,850 770,850 770,860 840,860" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="840,860 830.0950818741205,864.7846208752235 830.0950818741205,855.2153791247765" fill="#60728b"/>
+<rect x="486" y="817" width="192.984375" height="27" fill="white"/>
+<text x="490" y="835" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">0..N cards / Agreement</text>
+<polyline points="460,900 770,900 770,1000 840,1000" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="840,1000 830.0950818741205,1004.7846208752235 830.0950818741205,995.2153791247765" fill="#60728b"/>
+<rect x="486" y="957" width="158.0" height="27" fill="white"/>
+<text x="490" y="975" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">0..N cards / Holder</text>
+<polyline points="1760,800 2070,800 2070,720 2140,720" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="2140,720 2130.0950818741208,724.7846208752235 2130.0950818741208,715.2153791247765" fill="#60728b"/>
+<rect x="1786" y="677" width="179.984375" height="27" fill="white"/>
+<text x="1790" y="695" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">0..1 loan / Agreement</text>
+<polyline points="1760,850 2070,850 2070,860 2140,860" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="2140,860 2130.0950818741208,864.7846208752235 2130.0950818741208,855.2153791247765" fill="#60728b"/>
+<rect x="1786" y="817" width="168.984375" height="27" fill="white"/>
+<text x="1790" y="835" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">0..N loans / Account</text>
+<polyline points="460,1300 770,1300 770,1220 840,1220" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="840,1220 830.0950818741205,1224.7846208752235 830.0950818741205,1215.2153791247765" fill="#60728b"/>
+<rect x="486" y="1177" width="211.0" height="27" fill="white"/>
+<text x="490" y="1195" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">0..N consents / Customer</text>
+<polyline points="1760,1300 2070,1300 2070,1220 2140,1220" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="2140,1220 2130.0950818741208,1224.7846208752235 2130.0950818741208,1215.2153791247765" fill="#60728b"/>
+<rect x="1786" y="1177" width="177.0" height="27" fill="white"/>
+<text x="1790" y="1195" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">0..N docs / Customer</text>
+<polyline points="1760,1350 2070,1350 2070,1360 2140,1360" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="2140,1360 2130.0950818741208,1364.7846208752235 2130.0950818741208,1355.2153791247765" fill="#60728b"/>
+<rect x="1786" y="1317" width="186.984375" height="27" fill="white"/>
+<text x="1790" y="1335" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">0..N docs / Agreement</text>
+<rect x="40" y="250" width="420" height="200" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="52" y="280" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E02 Identifier</text>
+<text x="52" y="303" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK source+local_id+from</text>
+<text x="52" y="329" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">FK customer_id</text>
+<text x="52" y="355" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">match / history</text>
+<rect x="840" y="170" width="390" height="100" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="852" y="200" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E01 Customer (повтор)</text>
+<text x="852" y="223" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK customer_id</text>
+<rect x="1340" y="250" width="420" height="200" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="1352" y="280" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E01 Customer (повтор)</text>
+<text x="1352" y="303" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK customer_id</text>
+<text x="1352" y="329" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">FK segment_id?</text>
+<rect x="2140" y="170" width="390" height="100" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="2152" y="200" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E13 Segment (повтор)</text>
+<text x="2152" y="223" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK segment_id; definition/version</text>
+<rect x="40" y="750" width="420" height="200" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="52" y="780" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E06 Card</text>
+<text x="52" y="803" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK card_id</text>
+<text x="52" y="829" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">FK account / agreement / holder</text>
+<text x="52" y="855" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">pan_token / status</text>
+<rect x="840" y="670" width="390" height="100" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="852" y="700" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E05 Account (повтор)</text>
+<text x="852" y="723" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK account_id</text>
+<rect x="840" y="810" width="390" height="100" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="852" y="840" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E03 Agreement (повтор)</text>
+<text x="852" y="863" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK agreement_id</text>
+<rect x="840" y="950" width="390" height="100" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="852" y="980" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E01 Customer (повтор)</text>
+<text x="852" y="1003" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK customer_id</text>
+<rect x="1340" y="750" width="420" height="200" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="1352" y="780" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E07 Loan</text>
+<text x="1352" y="803" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK loan_id</text>
+<text x="1352" y="829" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">FK agreement UNIQUE / account</text>
+<text x="1352" y="855" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">schedule / principal</text>
+<rect x="2140" y="670" width="390" height="100" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="2152" y="700" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E03 Agreement (повтор)</text>
+<text x="2152" y="723" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK agreement_id</text>
+<rect x="2140" y="810" width="390" height="100" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="2152" y="840" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E05 Account (повтор)</text>
+<text x="2152" y="863" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK account_id</text>
+<rect x="40" y="1250" width="420" height="200" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="52" y="1280" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E15 Consent</text>
+<text x="52" y="1303" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK consent_id</text>
+<text x="52" y="1329" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">FK customer_id</text>
+<text x="52" y="1355" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">purpose / scope / evidence</text>
+<rect x="840" y="1170" width="390" height="100" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="852" y="1200" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E01 Customer (повтор)</text>
+<text x="852" y="1223" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK customer_id</text>
+<rect x="1340" y="1250" width="420" height="200" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="1352" y="1280" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E16 Document</text>
+<text x="1352" y="1303" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK document_id</text>
+<text x="1352" y="1329" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">FK customer? / agreement?</text>
+<text x="1352" y="1355" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">object_key / hash / retention</text>
+<rect x="2140" y="1170" width="390" height="100" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="2152" y="1200" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E01 Customer (повтор)</text>
+<text x="2152" y="1223" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK customer_id</text>
+<rect x="2140" y="1310" width="390" height="100" rx="8" fill="#e4f4ed" stroke="#60728b" stroke-width="2"/>
+<text x="2152" y="1340" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">E03 Agreement (повтор)</text>
+<text x="2152" y="1363" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">PK agreement_id</text>
+<text x="35" y="1655" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Обязательность FK указана в дочерней сущности. Document требует хотя бы одну ссылку: customer или agreement.</text>
+<text x="35" y="1680" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Identifier — history crosswalk; один current source key не может указывать на двух Customer.</text>
+</svg>

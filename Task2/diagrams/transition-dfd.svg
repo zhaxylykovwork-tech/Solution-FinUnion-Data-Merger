@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2600" height="1390" viewBox="0 0 2600 1390">
+<rect width="100%" height="100%" fill="white"/>
+<text x="35" y="51" font-family="Arial,DejaVu Sans,sans-serif" font-size="32" fill="#182c47">DFD L1 | Промежуточное состояние, 3 месяца</text>
+<text x="35" y="89" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" fill="#182c47">F01–F20: реестр data-flows.md. Слева — восемь source systems; P1–P4 и D1/D2 раскрывают платформу P0.</text>
+<polyline points="295,195 450,195 450,645 600,645" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="600,645 590.0950818741205,649.7846208752235 590.0950818741205,640.2153791247765" fill="#60728b"/>
+<rect x="321" y="160" width="39.0" height="27" fill="white"/>
+<text x="325" y="178" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F01</text>
+<polyline points="295,335 450,335 450,645 600,645" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="600,645 590.0950818741205,649.7846208752235 590.0950818741205,640.2153791247765" fill="#60728b"/>
+<rect x="321" y="300" width="39.0" height="27" fill="white"/>
+<text x="325" y="318" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F02</text>
+<polyline points="295,475 450,475 450,645 600,645" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="600,645 590.0950818741205,649.7846208752235 590.0950818741205,640.2153791247765" fill="#60728b"/>
+<rect x="321" y="440" width="39.0" height="27" fill="white"/>
+<text x="325" y="458" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F03</text>
+<polyline points="295,615 450,615 450,645 600,645" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="600,645 590.0950818741205,649.7846208752235 590.0950818741205,640.2153791247765" fill="#60728b"/>
+<rect x="321" y="580" width="39.0" height="27" fill="white"/>
+<text x="325" y="598" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F04</text>
+<polyline points="295,755 450,755 450,645 600,645" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="600,645 590.0950818741205,649.7846208752235 590.0950818741205,640.2153791247765" fill="#60728b"/>
+<rect x="321" y="720" width="39.0" height="27" fill="white"/>
+<text x="325" y="738" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F05</text>
+<polyline points="295,895 450,895 450,645 600,645" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="600,645 590.0950818741205,649.7846208752235 590.0950818741205,640.2153791247765" fill="#60728b"/>
+<rect x="321" y="860" width="39.0" height="27" fill="white"/>
+<text x="325" y="878" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F06</text>
+<polyline points="295,1035 450,1035 450,645 600,645" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="600,645 590.0950818741205,649.7846208752235 590.0950818741205,640.2153791247765" fill="#60728b"/>
+<rect x="321" y="1000" width="39.0" height="27" fill="white"/>
+<text x="325" y="1018" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F07</text>
+<polyline points="295,1175 450,1175 450,645 600,645" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="600,645 590.0950818741205,649.7846208752235 590.0950818741205,640.2153791247765" fill="#60728b"/>
+<rect x="321" y="1140" width="39.0" height="27" fill="white"/>
+<text x="325" y="1158" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F08</text>
+<polyline points="940,510 1010,510 1010,250 1120,250" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1120,250 1110.0950818741205,254.78462087522354 1110.0950818741205,245.21537912477646" fill="#60728b"/>
+<rect x="966" y="417" width="122.0" height="27" fill="white"/>
+<text x="970" y="435" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F09 proposals</text>
+<polyline points="1120,340 1060,340 1060,560 940,560" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="940,560 949.9049181258795,555.2153791247765 949.9049181258795,564.7846208752235" fill="#60728b"/>
+<rect x="956" y="572" width="78.0" height="27" fill="white"/>
+<text x="960" y="590" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F10 gold</text>
+<polyline points="700,470 700,290" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="700,290 704.7846208752235,299.9049181258794 695.2153791247765,299.9049181258794" fill="#60728b"/>
+<rect x="726" y="332" width="179.0" height="51" fill="white"/>
+<text x="730" y="350" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F11F/F11R</text>
+<text x="730" y="374" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Enrich/Update/Delete</text>
+<polyline points="940,700 1120,700" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1120,700 1110.0950818741205,704.7846208752235 1110.0950818741205,695.2153791247765" fill="#60728b"/>
+<rect x="956" y="657" width="82.0" height="27" fill="white"/>
+<text x="960" y="675" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F12 facts</text>
+<polyline points="1295,400 1295,600" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1295,600 1290.2153791247765,590.0950818741205 1299.7846208752235,590.0950818741205" fill="#60728b"/>
+<rect x="1306" y="462" width="135.0" height="27" fill="white"/>
+<text x="1310" y="480" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F13 dimensions</text>
+<polyline points="1470,665 1670,665" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1670,665 1660.0950818741205,669.7846208752235 1660.0950818741205,660.2153791247765" fill="#60728b"/>
+<rect x="1506" y="622" width="89.0" height="27" fill="white"/>
+<text x="1510" y="640" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F14 marts</text>
+<polyline points="1990,690 2210,690" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="2210,690 2200.0950818741208,694.7846208752235 2200.0950818741208,685.2153791247765" fill="#60728b"/>
+<rect x="2026" y="702" width="89.0" height="27" fill="white"/>
+<text x="2030" y="720" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F15 отчёт</text>
+<polyline points="2210,625 1990,625" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1990,625 1999.9049181258795,620.2153791247765 1999.9049181258795,629.7846208752235" fill="#60728b"/>
+<rect x="2021" y="587" width="101.0" height="27" fill="white"/>
+<text x="2025" y="605" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F20 запрос</text>
+<polyline points="1470,760 1560,760 1560,975 1670,975" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1670,975 1660.0950818741205,979.7846208752235 1660.0950818741205,970.2153791247765" fill="#60728b"/>
+<rect x="1496" y="847" width="112.0" height="27" fill="white"/>
+<text x="1500" y="865" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F16 package</text>
+<polyline points="1470,230 1670,230" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1670,230 1660.0950818741205,234.78462087522354 1660.0950818741205,225.21537912477646" fill="#60728b"/>
+<rect x="1496" y="187" width="96.0" height="27" fill="white"/>
+<text x="1500" y="205" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F19 review</text>
+<polyline points="1670,310 1470,310" fill="none" stroke="#60728b" stroke-width="2"/>
+<polygon points="1470,310 1479.9049181258795,305.21537912477646 1479.9049181258795,314.78462087522354" fill="#60728b"/>
+<rect x="1491" y="322" width="119.0" height="27" fill="white"/>
+<text x="1495" y="340" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F18 decisions</text>
+<polyline points="770,770 770,1165 1120,1165" fill="none" stroke="#60728b" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1120,1165 1110.0950818741205,1169.7846208752235 1110.0950818741205,1160.2153791247765" fill="#60728b"/>
+<rect x="786" y="1077" width="127.0" height="27" fill="white"/>
+<text x="790" y="1095" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F17 IL schema</text>
+<polyline points="1450,400 1520,400 1520,1060 1380,1060 1380,1090" fill="none" stroke="#60728b" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1380,1090 1375.2153791247765,1080.0950818741205 1384.7846208752235,1080.0950818741205" fill="#60728b"/>
+<rect x="1476" y="997" width="87.0" height="27" fill="white"/>
+<text x="1480" y="1015" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F17 MDM</text>
+<polyline points="1295,820 1295,1090" fill="none" stroke="#60728b" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1295,1090 1290.2153791247765,1080.0950818741205 1299.7846208752235,1080.0950818741205" fill="#60728b"/>
+<rect x="1306" y="957" width="87.0" height="27" fill="white"/>
+<text x="1310" y="975" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F17 DWH</text>
+<polyline points="1830,740 2070,740 2070,1190 1470,1190" fill="none" stroke="#60728b" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="1470,1190 1479.9049181258795,1185.2153791247765 1479.9049181258795,1194.7846208752235" fill="#60728b"/>
+<rect x="1746" y="1207" width="141.0" height="27" fill="white"/>
+<text x="1750" y="1225" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F17 BI metadata</text>
+<rect x="35" y="150" width="260" height="90" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="47" y="180" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">FU CRM</text>
+<text x="47" y="203" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F01 source data</text>
+<rect x="35" y="290" width="260" height="90" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="47" y="320" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">RB CRM</text>
+<text x="47" y="343" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F02 source data</text>
+<rect x="35" y="430" width="260" height="90" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="47" y="460" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">FU Core</text>
+<text x="47" y="483" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F03 source data</text>
+<rect x="35" y="570" width="260" height="90" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="47" y="600" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">RB Core</text>
+<text x="47" y="623" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F04 source data</text>
+<rect x="35" y="710" width="260" height="90" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="47" y="740" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">FU Cards</text>
+<text x="47" y="763" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F05 source data</text>
+<rect x="35" y="850" width="260" height="90" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="47" y="880" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">RB Cards</text>
+<text x="47" y="903" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F06 source data</text>
+<rect x="35" y="990" width="260" height="90" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="47" y="1020" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">FU Loans</text>
+<text x="47" y="1043" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F07 source data</text>
+<rect x="35" y="1130" width="260" height="90" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="47" y="1160" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">RB Loans</text>
+<text x="47" y="1183" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">F08 source data</text>
+<rect x="600" y="470" width="340" height="300" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="612" y="500" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">P1 Integration Layer</text>
+<text x="612" y="523" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Adapters / source contracts</text>
+<text x="612" y="549" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Validate / normalize codes</text>
+<text x="612" y="575" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Read / Create / Update</text>
+<text x="612" y="601" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Delete tombstones</text>
+<text x="612" y="627" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Staging + event log</text>
+<rect x="1120" y="180" width="350" height="220" rx="8" fill="#fff1d4" stroke="#60728b" stroke-width="2"/>
+<text x="1132" y="210" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">P2 MDM Customer Hub</text>
+<text x="1132" y="233" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Match / Enrich / Validate</text>
+<text x="1132" y="259" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Customer / crosswalk</text>
+<text x="1132" y="285" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Reference / consent projection</text>
+<text x="1132" y="311" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Gold history + outbox</text>
+<rect x="1120" y="600" width="350" height="220" rx="8" fill="#fff1d4" stroke="#60728b" stroke-width="2"/>
+<text x="1132" y="630" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">D1/P3 PostgreSQL DWH</text>
+<text x="1132" y="653" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Staging / conformed core</text>
+<text x="1132" y="679" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Aggregate / reconcile</text>
+<text x="1132" y="705" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Atomic publish_version</text>
+<text x="1132" y="731" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Marts + report snapshots</text>
+<rect x="1670" y="590" width="320" height="150" rx="8" fill="#e7f0ff" stroke="#60728b" stroke-width="2"/>
+<text x="1682" y="620" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">P4 BI / metrics</text>
+<text x="1682" y="643" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Read / Aggregate</text>
+<text x="1682" y="669" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Certified views only</text>
+<rect x="2210" y="590" width="330" height="150" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="2222" y="620" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Сотрудник</text>
+<text x="2222" y="643" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Запрос и отчёт с as_of</text>
+<rect x="1670" y="890" width="320" height="150" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="1682" y="920" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Регуляторный потребитель</text>
+<text x="1682" y="943" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Утверждённый export</text>
+<rect x="1120" y="1090" width="350" height="150" rx="8" fill="#fff1d4" stroke="#60728b" stroke-width="2"/>
+<text x="1132" y="1120" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">D2 DataHub</text>
+<text x="1132" y="1143" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Metadata / owner / lineage</text>
+<text x="1132" y="1169" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Без raw ПДн</text>
+<rect x="1670" y="180" width="320" height="170" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="1682" y="210" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">Steward</text>
+<text x="1682" y="233" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Queue / match decisions</text>
+<text x="1682" y="259" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Reference approval</text>
+<rect x="600" y="140" width="340" height="150" rx="8" fill="#f1f3f5" stroke="#60728b" stroke-width="2"/>
+<text x="612" y="170" font-family="Arial,DejaVu Sans,sans-serif" font-size="21" fill="#182c47">FU CRM / RB CRM</text>
+<text x="612" y="193" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Golden projection (F11F/R)</text>
+<text x="612" y="219" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Те же внешние CRM</text>
+<text x="35" y="1335" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">Жёлтые — хранилища с ответственным процессом. Синие — обработка. Серые — внешние участники. Пунктир — metadata.</text>
+<text x="35" y="1360" font-family="Arial,DejaVu Sans,sans-serif" font-size="18" fill="#182c47">CRM показаны второй раз как получатели F11; это те же системы. F01–F08 сходятся в ingestion, не смешивая source keys.</text>
+</svg>
